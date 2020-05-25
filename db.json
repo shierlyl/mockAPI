@@ -10,5 +10,47 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "Picklist": {
+    "d": {
+      "results": [
+        {
+          "__metadata": {
+            "uri": "https://qacand-api.lab-rot.ondemand.com/odata/v2/Picklist('talentPool')",
+            "type": "SFOData.Picklist"
+          },
+          "picklistId": "talentPool",
+          "picklistOptions": {
+            "__deferred": {
+              "uri": "https://qacand-api.lab-rot.ondemand.com/odata/v2/Picklist('talentPool')/picklistOptions"
+            }
+          }
+        },
+        {
+          "__metadata": {
+            "uri": "https://qacand-api.lab-rot.ondemand.com/odata/v2/Picklist('benchStrength')",
+            "type": "SFOData.Picklist"
+          },
+          "picklistId": "benchStrength",
+          "picklistOptions": {
+            "__deferred": {
+              "uri": "https://qacand-api.lab-rot.ondemand.com/odata/v2/Picklist('benchStrength')/picklistOptions"
+            }
+          }
+        },
+        {
+          "__metadata": {
+            "uri": "https://qacand-api.lab-rot.ondemand.com/odata/v2/Picklist('reasonForLeaving')",
+            "type": "SFOData.Picklist"
+          },
+          "picklistId": "reasonForLeaving",
+          "picklistOptions": {
+            "__deferred": {
+              "uri": "https://qacand-api.lab-rot.ondemand.com/odata/v2/Picklist('reasonForLeaving')/picklistOptions"
+            }
+          }
+        }
+      ]
+    }
   }
 }
